@@ -11,13 +11,7 @@ export default class App extends Component {
 
     componentWillMount() {
         fireBase.initializeApp({
-            apiKey: "AIzaSyCcTYzRNDuy7R5cyuipla4sJPxWLkgMN_w",
-            authDomain: "auth-ecde6.firebaseapp.com",
-            databaseURL: "https://auth-ecde6.firebaseio.com",
-            projectId: "auth-ecde6",
-            storageBucket: "auth-ecde6.appspot.com",
-            messagingSenderId: "1068653381734",
-            appId: "1:1068653381734:web:2831b6a63ebc0f91"
+          //intentionally left blank
         });
 
         fireBase.auth().onAuthStateChanged(user => {
